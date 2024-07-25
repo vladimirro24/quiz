@@ -44,14 +44,6 @@ export const CategoryPage = () => {
 						<h1 className='text-4xl text-teal-800 font-extrabold text-center'>
 							{category}
 						</h1>
-
-						<div className='flex justify-center items-center'>
-							<img
-								src={imgCategory}
-								alt={category}
-								className='w-80 rounded-lg shadow-md transform transition-transform duration-500 hover:scale-105'
-							/>
-						</div>
 					</div>
 
 					<button
